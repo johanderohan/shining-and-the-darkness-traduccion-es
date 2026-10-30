@@ -1,0 +1,14 @@
+# Nunca subir el juego ni nada derivado de su contenido
+*.md.rom
+*.bin
+*.gen
+*.md
+!README.md
+*.smd
+*.zip
+*.7z
+*.rar
+*.sram
+*.state
+trabajo/
+build*/
