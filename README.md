@@ -12,7 +12,7 @@ Este repositorio contiene únicamente este README; el parche está en **[Release
 
 ## Estado
 
-Última versión: **[v1.0](../../releases/tag/v1.0)**.
+Última versión: **[v1.1](../../releases/tag/v1.1)**.
 
 Traducción nueva realizada directamente desde los textos japoneses de la ROM, con biblia de términos,
 glosarios y revisión editorial cruzada. Incluye:
@@ -54,7 +54,7 @@ Tristán, Ward). Ortotipografía española: «…», ¡!, ¿?.
 
 ## Cómo aplicar el parche
 
-1. Descarga **[Shining-and-the-Darkness-es-ES-v1.0.xdelta](../../releases/download/v1.0/Shining-and-the-Darkness-es-ES-v1.0.xdelta)**.
+1. Descarga **[Shining-and-the-Darkness-es-ES-v1.1.xdelta](../../releases/download/v1.1/Shining-and-the-Darkness-es-ES-v1.1.xdelta)**.
 2. Comprueba que tienes la ROM japonesa **original, sin cabecera adicional y sin otros parches**:
 
    | Dato | Valor |
@@ -68,10 +68,10 @@ Tristán, Ward). Ortotipografía española: «…», ¡!, ¿?.
 3. Aplica el parche con **[Delta Patcher](https://github.com/marco-calautti/DeltaPatcher/releases)** o con `xdelta3`:
 
    ```bash
-   xdelta3 -d -s "Shining and the Darkness (Japan).md" Shining-and-the-Darkness-es-ES-v1.0.xdelta "Shining and the Darkness (es-ES).md"
+   xdelta3 -d -s "Shining and the Darkness (Japan).md" Shining-and-the-Darkness-es-ES-v1.1.xdelta "Shining and the Darkness (es-ES).md"
    ```
 
-4. La ROM resultante ocupa **2.097.152 bytes (2 MiB)**. Su MD5 debe ser `7cddbde262400814851eb4ff575990ea` y su SHA-256 `97dc8e88b09953140e352c5ee6f5f8de7fe9c27f0baeb42c2b05c93779c29c60`.
+4. La ROM resultante ocupa **2.097.152 bytes (2 MiB)**. Su MD5 debe ser `15f02176d49f5259774d1721a9db578f` y su SHA-256 `ab4a58a4ceda0a42de665b614a5cba8ef5612c23670bcf60852f0e3e1f0f105d`.
 5. Juega en modo **Mega Drive japonesa, NTSC a 60 Hz**. La ROM ampliada a 2 MiB conserva la memoria de guardado del original.
 
 Aplica cada versión sobre el **original japonés**, no sobre una ROM traducida. No cargues un estado de emulador creado con otra versión del juego.
@@ -89,4 +89,5 @@ Si eres titular de los derechos y quieres que lo retire, abre una incidencia.
 
 ## Cambios
 
+- **v1.1** (2026-11-03): el recuadro del cursor en la pantalla de nombre ya no se sale; las siglas HP/MP/LV pasan a PV/PM/NV; «Atac» pasa a «Ata.»; el cuadro de monedas de la posada, que seguía en japonés, dice «Monedas» (sin comprobar en pantalla: la posada solo sale con la historia avanzada); corregido un píxel suelto en la «y» de los rótulos de 8 píxeles. Corrige lo comunicado por un usuario.
 - **v1.0** (2026-10-30): primera publicación.
